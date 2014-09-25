@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MySignUpViewController.h"
+#import "MyLogInViewController.h"
 
 @interface ViewController ()
 
@@ -17,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Logout" style:UIBarButtonItemStyleBordered target:self action:@selector(logOut:)];
+}
 
 
 - (void)didReceiveMemoryWarning {
@@ -30,17 +33,18 @@
     
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
-        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+        MyLogInViewController *logInViewController = [[MyLogInViewController alloc] init];
         [logInViewController setDelegate:self]; // Set ourselves as the delegate
        // logInViewController.emailAsUsername=YES;
-        logInViewController.logInView.logo = @"Hotel"; // logo can be any UIView
 
         
         // Create the sign up view controller
-        PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
+        MySignUpViewController *signUpViewController = [[MySignUpViewController alloc] init];
         [signUpViewController setDelegate:self]; // Set ourselves as the delegate
         // signUpViewController.emailAsUsername=YES;
-        //signUpViewController.addit=YES;
+        
+        [signUpViewController setFields:PFSignUpFieldsDefault | PFSignUpFieldsAdditional];
+
 
         //[signUpViewController.signUpView.additionalField.t setPlaceholder:@"Hotel Name"];
 

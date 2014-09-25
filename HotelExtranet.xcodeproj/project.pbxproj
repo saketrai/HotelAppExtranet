@@ -27,6 +27,8 @@
 		093C8B7319D29B4A00DF3999 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7219D29B4A00DF3999 /* SystemConfiguration.framework */; };
 		093C8B7619D2A38000DF3999 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7519D2A38000DF3999 /* Social.framework */; };
 		093C8B7819D2A38400DF3999 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7719D2A38400DF3999 /* Accounts.framework */; };
+		09B0ABCB19D4030C00A72DD9 /* MyLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0ABC819D4030C00A72DD9 /* MyLogInViewController.m */; };
+		09B0ABCC19D4030C00A72DD9 /* MySignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0ABCA19D4030C00A72DD9 /* MySignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		093C8B7219D29B4A00DF3999 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		093C8B7519D2A38000DF3999 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		093C8B7719D2A38400DF3999 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		09B0ABC719D4030C00A72DD9 /* MyLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogInViewController.h; sourceTree = "<group>"; };
+		09B0ABC819D4030C00A72DD9 /* MyLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogInViewController.m; sourceTree = "<group>"; };
+		09B0ABC919D4030C00A72DD9 /* MySignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySignUpViewController.h; sourceTree = "<group>"; };
+		09B0ABCA19D4030C00A72DD9 /* MySignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 		093C8B3719D298C800DF3999 /* HotelExtranet */ = {
 			isa = PBXGroup;
 			children = (
+				09B0ABC719D4030C00A72DD9 /* MyLogInViewController.h */,
+				09B0ABC819D4030C00A72DD9 /* MyLogInViewController.m */,
+				09B0ABC919D4030C00A72DD9 /* MySignUpViewController.h */,
+				09B0ABCA19D4030C00A72DD9 /* MySignUpViewController.m */,
 				093C8B3C19D298C800DF3999 /* AppDelegate.h */,
 				093C8B3D19D298C800DF3999 /* AppDelegate.m */,
 				093C8B3F19D298C800DF3999 /* ViewController.h */,
@@ -279,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B0ABCB19D4030C00A72DD9 /* MyLogInViewController.m in Sources */,
 				093C8B4119D298C800DF3999 /* ViewController.m in Sources */,
 				093C8B3E19D298C800DF3999 /* AppDelegate.m in Sources */,
+				09B0ABCC19D4030C00A72DD9 /* MySignUpViewController.m in Sources */,
 				093C8B3B19D298C800DF3999 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
