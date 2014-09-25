@@ -14,6 +14,19 @@
 		093C8B4619D298C800DF3999 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093C8B4519D298C800DF3999 /* Images.xcassets */; };
 		093C8B4919D298C800DF3999 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093C8B4719D298C800DF3999 /* LaunchScreen.xib */; };
 		093C8B5519D298C800DF3999 /* HotelExtranetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C8B5419D298C800DF3999 /* HotelExtranetTests.m */; };
+		093C8B5F19D29A4800DF3999 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B5E19D29A4800DF3999 /* Parse.framework */; };
+		093C8B6119D29A5B00DF3999 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6019D29A5B00DF3999 /* Bolts.framework */; };
+		093C8B6319D29ADB00DF3999 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6219D29ADB00DF3999 /* AudioToolbox.framework */; };
+		093C8B6519D29AE800DF3999 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6419D29AE800DF3999 /* CFNetwork.framework */; };
+		093C8B6719D29AF100DF3999 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6619D29AF100DF3999 /* CoreGraphics.framework */; };
+		093C8B6919D29B0B00DF3999 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6819D29B0B00DF3999 /* libz.dylib */; };
+		093C8B6B19D29B1F00DF3999 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6A19D29B1F00DF3999 /* MobileCoreServices.framework */; };
+		093C8B6D19D29B2F00DF3999 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6C19D29B2F00DF3999 /* QuartzCore.framework */; };
+		093C8B6F19D29B3800DF3999 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B6E19D29B3800DF3999 /* Security.framework */; };
+		093C8B7119D29B4100DF3999 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7019D29B4100DF3999 /* StoreKit.framework */; };
+		093C8B7319D29B4A00DF3999 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7219D29B4A00DF3999 /* SystemConfiguration.framework */; };
+		093C8B7619D2A38000DF3999 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7519D2A38000DF3999 /* Social.framework */; };
+		093C8B7819D2A38400DF3999 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C8B7719D2A38400DF3999 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,19 @@
 		093C8B4E19D298C800DF3999 /* HotelExtranetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelExtranetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093C8B5319D298C800DF3999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093C8B5419D298C800DF3999 /* HotelExtranetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelExtranetTests.m; sourceTree = "<group>"; };
+		093C8B5E19D29A4800DF3999 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		093C8B6019D29A5B00DF3999 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		093C8B6219D29ADB00DF3999 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		093C8B6419D29AE800DF3999 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		093C8B6619D29AF100DF3999 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		093C8B6819D29B0B00DF3999 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		093C8B6A19D29B1F00DF3999 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		093C8B6C19D29B2F00DF3999 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		093C8B6E19D29B3800DF3999 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		093C8B7019D29B4100DF3999 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		093C8B7219D29B4A00DF3999 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		093C8B7519D2A38000DF3999 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		093C8B7719D2A38400DF3999 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093C8B7819D2A38400DF3999 /* Accounts.framework in Frameworks */,
+				093C8B7619D2A38000DF3999 /* Social.framework in Frameworks */,
+				093C8B7319D29B4A00DF3999 /* SystemConfiguration.framework in Frameworks */,
+				093C8B7119D29B4100DF3999 /* StoreKit.framework in Frameworks */,
+				093C8B6F19D29B3800DF3999 /* Security.framework in Frameworks */,
+				093C8B6D19D29B2F00DF3999 /* QuartzCore.framework in Frameworks */,
+				093C8B6B19D29B1F00DF3999 /* MobileCoreServices.framework in Frameworks */,
+				093C8B6919D29B0B00DF3999 /* libz.dylib in Frameworks */,
+				093C8B6719D29AF100DF3999 /* CoreGraphics.framework in Frameworks */,
+				093C8B6519D29AE800DF3999 /* CFNetwork.framework in Frameworks */,
+				093C8B6319D29ADB00DF3999 /* AudioToolbox.framework in Frameworks */,
+				093C8B5F19D29A4800DF3999 /* Parse.framework in Frameworks */,
+				093C8B6119D29A5B00DF3999 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,9 @@
 		093C8B2C19D298C800DF3999 = {
 			isa = PBXGroup;
 			children = (
+				093C8B7719D2A38400DF3999 /* Accounts.framework */,
+				093C8B7519D2A38000DF3999 /* Social.framework */,
+				093C8B7419D29B6600DF3999 /* Framework */,
 				093C8B3719D298C800DF3999 /* HotelExtranet */,
 				093C8B5119D298C800DF3999 /* HotelExtranetTests */,
 				093C8B3619D298C800DF3999 /* Products */,
@@ -117,6 +159,24 @@
 				093C8B5319D298C800DF3999 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093C8B7419D29B6600DF3999 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				093C8B7219D29B4A00DF3999 /* SystemConfiguration.framework */,
+				093C8B7019D29B4100DF3999 /* StoreKit.framework */,
+				093C8B6E19D29B3800DF3999 /* Security.framework */,
+				093C8B6C19D29B2F00DF3999 /* QuartzCore.framework */,
+				093C8B6A19D29B1F00DF3999 /* MobileCoreServices.framework */,
+				093C8B6819D29B0B00DF3999 /* libz.dylib */,
+				093C8B6619D29AF100DF3999 /* CoreGraphics.framework */,
+				093C8B6419D29AE800DF3999 /* CFNetwork.framework */,
+				093C8B6219D29ADB00DF3999 /* AudioToolbox.framework */,
+				093C8B6019D29A5B00DF3999 /* Bolts.framework */,
+				093C8B5E19D29A4800DF3999 /* Parse.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,9 +405,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HotelExtranet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +420,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HotelExtranet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +484,7 @@
 				093C8B5A19D298C800DF3999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		093C8B5B19D298C800DF3999 /* Build configuration list for PBXNativeTarget "HotelExtranetTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +493,7 @@
 				093C8B5D19D298C800DF3999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
